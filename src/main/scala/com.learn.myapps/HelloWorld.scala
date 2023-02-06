@@ -3,4 +3,6 @@ object HelloWorld extends App {
   println(s"$greeting")
 
   def sum(a: Long, b: Long) = a + b
+
+  println(sum(5,4))
 }
